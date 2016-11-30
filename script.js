@@ -7,4 +7,4 @@
 
 var elementsList = $("#elements-list")
 
-elementsList.clone().appendto($("#eleme"))
+elementsList.clone().appendTo(elementsList)
