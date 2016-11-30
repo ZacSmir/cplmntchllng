@@ -11,7 +11,7 @@ $(".element").clone().css({background: "green"}).appendTo(elementsList)
 $(".element").clone().css({background: "cornsilk"}).appendTo(elementsList)
 $(".element").clone().css({background: "red"}).appendTo(elementsList)
 
-var a = {"red","blue","green","cornsilk"}
+var a = ["red","blue","green","cornsilk"]
 a.forEach(function(red)){
-          console.log("whatislove")
+          console.log(")
   }
