@@ -7,7 +7,4 @@
 
 
 var a = ["red","blue","green","cornsilk","yellow","aquamarine","orange"]
-a.forEach(function(red){
-          console.log(red)
-          $(".element:first").clone().css({background:red}).appendTo($("#elements-list"))
-  })
+a.forEach(function(red){$(".element:first").clone().css({background:red}).appendTo($("#elements-list"))})
