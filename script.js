@@ -10,3 +10,6 @@ var elementsList = $("#elements-list")
 $(".element").clone().css({background: "green"}).appendTo(elementsList)
 $(".element").clone().css({background: "cornsilk"}).appendTo(elementsList)
 $(".element").clone().css({background: "red"}).appendTo(elementsList)
+
+var a = {1,2,3,4}
+a.for
