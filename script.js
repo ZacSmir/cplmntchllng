@@ -7,12 +7,12 @@
 
 var elementsList = $("#elements-list")
 
-$(".element").clone()..appendTo(elementsList)
-$(".element").clone().css({background: "cornsilk"}).appendTo(elementsList)
-$(".element").clone().css({background: "red"}).appendTo(elementsList)
+$(".element:first").clone().appendTo(elementsList)
+$(".elemen:first").clone().appendTo(elementsList)
+$(".element:first").clone().appendTo(elementsList)
 
 var a = ["red","blue","green","cornsilk"]
 a.forEach(function(red){
           console.log(red)
-          $(".element")css({background: red})
+          $(".element:first").css({background: red})
   })
